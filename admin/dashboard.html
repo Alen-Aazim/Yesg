@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header container">
+    <a class="logo" href="../index.html">Admin — Yesgee</a>
+    <nav class="nav">
+      <a href="products.html">Manage Products</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a id="admin-logout" href="#">Logout</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Dashboard</h1>
+    <div id="admin-widgets" class="grid">
+      <div class="card">Products: <span id="admin-products-count">0</span></div>
+      <div class="card">Cart Items (total): <span id="admin-cart-total">0</span></div>
+    </div>
+  </main>
+
+  <script src="/assets/js/admin.js"></script>
+</body>
+</html>
